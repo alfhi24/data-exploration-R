@@ -1,3 +1,4 @@
+#Standarisasi nomor hp
 library(RMySQL)
 library(ggplot2)
 
