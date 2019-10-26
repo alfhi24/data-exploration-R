@@ -1,2 +1,1 @@
-#Data Exploration in R
-Exploring data with R language
+Exploring data with various R methods
