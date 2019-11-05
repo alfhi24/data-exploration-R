@@ -7,14 +7,16 @@ data_intro <- read.csv("data_intro.csv", sep=";")
 ## mengubah data menjadi karakter karena tidak dilakukan analisis statistik pada variabel ID Pelanggan dan nama
 #data_intro$ID.Pelanggan <- as.character(data_intro$ID.Pelanggan)
 #data_intro$Nama <- as.character(data_intro$Nama)
+
 ## melihat apakah sudah berhasil dalam mengubah variabel tersebut
 
 ## Mengubah data menjadi factor untuk membedakan data kualitatif dengan menggunakan functon as.factor
 data_intro$Jenis.Kelamin <- as.factor(data_intro$Jenis.Kelamin)
 data_intro$Produk <- as.factor(data_intro$Produk)
 data_intro$Tingkat.Kepuasan <- as.factor(data_intro$Tingkat.Kepuasan)
+
 ## Melihat apakah sudah berhasil dalam mengubah variabel tersebut dengan menggunakan function str
-# str(data_intro)
+str(data_intro)
 
 # #Nilai modus
 # Mode(data_intro$Produk)
