@@ -8,9 +8,9 @@ data.pelanggan$Kode.Pelanggan <- as.factor(data.pelanggan$Kode.Pelanggan)
 data.pelanggan$Nama.Lengkap <- as.factor(data.pelanggan$Nama.Lengkap)
 data.pelanggan$Alamat <- as.factor(data.pelanggan$Alamat)
 data.pelanggan$Tanggal.Lahir <- as.factor(data.pelanggan$Tanggal.Lahir)
-data.pelanggan$Aktif <- as.factor(data.pelanggan$Aktif)
-data.pelanggan$Kode.Pos <- as.factor(data.pelanggan$Kode.Pos)
-data.pelanggan$No.Telepon <- as.factor(data.pelanggan$No.Telepon)
+# data.pelanggan$Aktif <- as.factor(data.pelanggan$Aktif)
+# data.pelanggan$Kode.Pos <- as.factor(data.pelanggan$Kode.Pos)
+# data.pelanggan$No.Telepon <- as.factor(data.pelanggan$No.Telepon)
 
 #Menggunakan function summary
 summary(data.pelanggan) 
