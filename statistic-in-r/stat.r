@@ -19,19 +19,19 @@ data_intro$Tingkat.Kepuasan <- as.factor(data_intro$Tingkat.Kepuasan)
 str(data_intro)
 
 # #Nilai modus
-# Mode(data_intro$Produk)
-# median(data_intro$Total)
-# mean(data_intro$Total)
-# #summary(data_intro)
+Mode(data_intro$Produk)
+median(data_intro$Total)
+mean(data_intro$Total)
+summary(data_intro)
 # ## carilah range untuk kolom Pendapatan pada variable data_intro
-# max(data_intro$Pendapatan)-min(data_intro$Pendapatan)
+max(data_intro$Pendapatan)-min(data_intro$Pendapatan)
 # ## Carilah varians untuk kolom Pendapatan dari variable data_intro
-# var(data_intro$Pendapatan)
-# sd(data_intro$Jumlah)
+var(data_intro$Pendapatan)
+sd(data_intro$Jumlah)
 # ## Carilah sebaran data kolom Jenis.Kelamin dari variable data_intro
-# plot(data_intro$Jenis.Kelamin)
+plot(data_intro$Jenis.Kelamin)
 
 # ## Carilah sebaran data dari Pendapatan dari variable data_intro
-# hist(data_intro$Pendapatan)
+hist(data_intro$Pendapatan)
 
 plot(data_intro$Pendapatan,data_intro$Total)
