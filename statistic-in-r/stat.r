@@ -1,12 +1,12 @@
 library(pracma)
 data_intro <- read.csv("data_intro.csv", sep=";")
 # data_intro
-# str(data_intro)
+str(data_intro)
 
 #MENYESUAIKAN TIPE DATA UNTUK DIANALISIS
 ## mengubah data menjadi karakter karena tidak dilakukan analisis statistik pada variabel ID Pelanggan dan nama
-#data_intro$ID.Pelanggan <- as.character(data_intro$ID.Pelanggan)
-#data_intro$Nama <- as.character(data_intro$Nama)
+data_intro$ID.Pelanggan <- as.character(data_intro$ID.Pelanggan)
+data_intro$Nama <- as.character(data_intro$Nama)
 
 ## melihat apakah sudah berhasil dalam mengubah variabel tersebut
 
