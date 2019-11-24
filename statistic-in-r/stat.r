@@ -32,6 +32,6 @@ sd(data_intro$Jumlah)
 plot(data_intro$Jenis.Kelamin)
 
 # ## Carilah sebaran data dari Pendapatan dari variable data_intro
-#hist(data_intro$Pendapatan)
+hist(data_intro$Pendapatan)
 
-#plot(data_intro$Pendapatan,data_intro$Total)
+plot(data_intro$Pendapatan,data_intro$Total)
