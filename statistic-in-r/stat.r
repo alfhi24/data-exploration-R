@@ -1,6 +1,6 @@
 library(pracma)
 data_intro <- read.csv("data_intro.csv", sep=";")
-# data_intro
+data_intro
 str(data_intro)
 
 #MENYESUAIKAN TIPE DATA UNTUK DIANALISIS
@@ -8,7 +8,7 @@ str(data_intro)
 data_intro$ID.Pelanggan <- as.character(data_intro$ID.Pelanggan)
 data_intro$Nama <- as.character(data_intro$Nama)
 
-## melihat apakah sudah berhasil dalam mengubah variabel tersebut
+# melihat apakah sudah berhasil dalam mengubah variabel tersebut
 
 ## Mengubah data menjadi factor untuk membedakan data kualitatif dengan menggunakan functon as.factor
 data_intro$Jenis.Kelamin <- as.factor(data_intro$Jenis.Kelamin)
