@@ -1,5 +1,6 @@
 library(openxlsx)
 library(reshape2)
+
 data_penduduk <- read.xlsx(xlsxFile="dkikepadatankelurahan2013.xlsx")
 data_penduduk$NAMA.PROVINSI <- as.factor(data_penduduk$NAMA.PROVINSI)
 data_penduduk$NAMA.KABUPATEN/KOTA <- as.factor(data_penduduk$NAMA.KABUPATEN/KOTA)
