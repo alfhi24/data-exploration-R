@@ -6,7 +6,7 @@ data_penduduk$NAMA.PROVINSI <- as.factor(data_penduduk$NAMA.PROVINSI)
 data_penduduk$NAMA.KABUPATEN/KOTA <- as.factor(data_penduduk$NAMA.KABUPATEN/KOTA)
 data_penduduk$NAMA.KECAMATAN <- as.factor(data_penduduk$NAMA.KECAMATAN)
 data_penduduk$NAMA.KELURAHAN <- as.factor(data_penduduk$NAMA.KELURAHAN)
-str(data_penduduk)
+#str(data_penduduk)
 
 #Tampilkan kolom yang mengandung kata "perempuan".
 perempuan <- grep(pattern="perempuan", x = names(data_penduduk), ignore.case=TRUE)
