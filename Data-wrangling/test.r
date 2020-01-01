@@ -23,4 +23,4 @@ data_penduduk_transform
 #Split isi kolom DEMOGRAFIK menjadi "RENTANG.UMUR" dan "JENIS.KELAMIN"
 data_penduduk_transform[c("RENTANG.UMUR", "JENIS.KELAMIN")] <- colsplit(data_penduduk_transform$DEMOGRAFIK,"\\.",c("RENTANG.UMUR","JENIS.KELAMIN"))
 data_penduduk_transform$DEMOGRAFIK <- NULL
-data_penduduk_transform
+#data_penduduk_transform
